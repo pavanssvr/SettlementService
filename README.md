@@ -1,13 +1,13 @@
-'Settlementservice' project is for proiding settlement for the Property.
+'Settlementservice' project is for providing settlement for the Property.
 
-It can handle 4 settlements simultaniously.
+It can handle 4 settlements simultaneously.
 
-If multiple reuqests comes with same booking time, it will through conflict error.
+If multiple requqests comes with same booking time, application will through conflict exception.
 
-ASP.NET Core WEB API project selected for implementing this functionality
+ASP.NET Core WEB API project selected for implementing this functionality.
 
-Used dependency injection for injecting service object and InmemoryCache.
+Used Dependency injection for injecting service object and InMemoryCache.
 
 Used XUnity Framework to cover all the test scenarios.
 
-Once we run the project, test the functionality by POST method for "https://localhost:44389/Settlement"
+Once we run the project, test the functionality by WEB API  POST for "https://localhost:44389/Settlement"
